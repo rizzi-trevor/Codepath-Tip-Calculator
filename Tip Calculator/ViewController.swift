@@ -13,6 +13,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        tipPercentageLabel.layer.backgroundColor = UIColor.cyan.cgColor
+        
+        billAmountTextField.layer.backgroundColor = UIColor.cyan.cgColor
+        
+        tipControl.layer.backgroundColor = UIColor.cyan.cgColor
+        
+        totalLabel.layer.backgroundColor = UIColor.cyan.cgColor
+        	
     }
 
     @IBOutlet weak var billAmountTextField: UITextField!
